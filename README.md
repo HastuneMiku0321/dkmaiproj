@@ -40,7 +40,7 @@
 ### [方案效果展示](https://www.bilibili.com/video/BV1pe4y1m7pr/)
 ### [使用32u4的延迟更新后的展示](https://www.bilibili.com/video/BV1PW4y1E7io/)
 ```
-todo: 按键的相关制作教程  
+<h2>todo: 最近要写一个常见问题解答（重要！！，包含非常普遍和致命（？）或麻烦的错误）</h2>
 stat: 延迟的问题已经被消除
 
 ## 第二部分 目录
