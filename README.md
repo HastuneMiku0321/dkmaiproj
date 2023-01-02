@@ -11,6 +11,14 @@
 我的触摸代码部分几乎完全是mai2touch的项目搬来的，然后更改修复了一些mpr121配置上的问题，配置部分借鉴了Arduino-Chunithm-Controller的代码。读卡器使用的也是同作者的Arduino-Aime-Reader。在此对mai2touch，Arduino-Chunithm-Controller,Arduino-Aime-Reader和它们的作者表示衷心的感谢，如果没有mai2touch和Arduino-Chunithm-Controller以及对它们下了很多心血的作者，我的控制器将失去它最重要的灵魂。  
 在此感谢[Sucareto](https://github.com/Sucareto)以及他的项目[Arduino-Aime-Reader](https://github.com/Sucareto/Arduino-Aime-Reader)，[Arduino-Chunithm-Controller](https://github.com/Sucareto/Arduino-Chunithm-Controller)和[mai2Touch](https://github.com/Sucareto/Mai2Touch)!
 
+此版本可以单独调整每一个区块的连线和阈值！内置接线mpr分区来自洛梨的设计！newmap-llvermtn202212271340    
+
+里面使用一个数组存储了每个区块具体的接线信息和阈值，这样更加方便大家使用自己对于接线方法的设计！建议自制的同志们每个人都下载看一下，比以前的程序接线自由度好很多！
+
+里面带的分区的接线洛梨的设计，“这样分可以更简单的做到膜到mpr的每根漆包线都不会交叉，有充足的空间给每一根放置”，使用四片mpr，分别放在四角进行连接，并设计减少了交叉造成的干扰，是非常大方和聪明的设计，这种无私奉献的精神值得我们每个人去学习！  
+里面带的是43寸的mpr参数。
+
+
 传承开源精神，我将自用的程序开源，但是仅仅用于我手里的硬件测试成功，不同的走线，制作方法，使用的mpr配置等也不一样，不建议照搬。
 
 ### 对于本教程版权的声明
